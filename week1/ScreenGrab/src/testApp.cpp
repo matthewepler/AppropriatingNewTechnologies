@@ -45,7 +45,7 @@ void testApp::update(){
 		image.setFromPixels(data, 300, 300, OF_IMAGE_COLOR_ALPHA, true);
 		image.setImageType(OF_IMAGE_COLOR);
 		image.update();
-		finder.findHaarObjects(image.getPixelsRef());
+//		finder.findHaarObjects(image.getPixelsRef());
 		
 	}
 	//cout << imageBelowWindow()[0] << endl;
@@ -54,7 +54,7 @@ void testApp::update(){
 
 }
 
-//--------------------------------------------------------------
+//------------------------------------------------C--------------
 void testApp::draw(){
 	image.draw(0,0, ofGetWidth(), ofGetHeight());
 	
